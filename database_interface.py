@@ -6,7 +6,7 @@ import PySimpleGUI as sg
 import create_databse
 import copy
 import valid_input
-#import main_window
+
 session = create_databse.session
 Medlemmar = create_databse.Medlemmar
 or_= create_databse.or_
@@ -124,7 +124,7 @@ def UpdateDb(MN:int,FN, EN, GA, PN, PA, F):
     member.Eftername =EN
     member.Gatuadress = GA
     member.PostNr =int(PN)
-    member.Postadress =PA
+    member.PostAdress =PA
     member.Fee = int(F)
     session.commit()
 

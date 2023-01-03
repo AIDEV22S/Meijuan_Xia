@@ -24,10 +24,10 @@ col11 = Column([[Frame('Search information',[[Text(),Column([[Text('Name or Medl
 col12 = Column([[Button('Add member',key='_ADD_',size=20,font='_15')],[Button('Update Selected',key='_UPD_',
                                                                               size=20,font='_15')],
                 [Button('Delete Selected',key='_DEL_',size=20,font='_15')],[Button('Show all members',key='_SearAll_',
-                                                                                   size=20,font='_15')]])
+                                                                                   size=20,font='_15')]],justification='center')
 col2 = Column([[Frame('Members Information',[[Column([[Table(values=initial_list,font='_15',#size=(2000,2000),
-                                                               headings=['  Nr.  ', 'FirstName','Eftername','Gatuadress'
-                                                               ,'PostNumber','Postaddress','Annual fee'],
+                                                               headings=[' Nr. ', 'FirstName','Eftername','Street Address'
+                                                               ,'Post Number','     Post Address    ','Annual fee'],
                                                               auto_size_columns=True,
                                                                select_mode='browse',
                                                               header_font='bold 15',
@@ -119,22 +119,8 @@ while True:
 
 window.close()
 
-    # if event == '_P_':
-    #     paid_check = values['_P_']
-    #     if paid_check :
-    #         window['Showcheck'].Update('checked')
-    #         if not tabel_list == []:
-    #             b = filter(lambda x: x[5]==0,tabel_list)
-    #             #tabel_list = b
-    #         # for i in range(len(tabel_list)-1,-1,-1):
-    #         #     if tabel_list[i][5]>0:
-    #         #         pass
-    #         #     else:
-    #                 #tabel_list.remove(tabel_list[i])
-    #             window['_TABEL_'].Update(b)
-    #         else:
-    #             window['_TABEL_'].Update(tabel_list)
 
+#[Text('Members Manage System',font='bold 20',justification='c')]
 
 
 
