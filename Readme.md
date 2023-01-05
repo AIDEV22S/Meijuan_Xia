@@ -18,9 +18,8 @@
 
 4. valid_input.py  kontrollerar om indata är giltiga och returnerar den ogiltiga indata
 
-4. Members.db är dbfilen som lagrar data
+5. Members.db är dbfilen som lagrar data
 
-![image](https://user-images.githubusercontent.com/114533842/210873268-1e9aaaed-d0d0-46f1-b8cd-787ba109dc2f.png)
 ![image](/images/1.jpeg)
 ![image](/images/add.jpeg)
 ![image](/images/uppdate.jpeg)
