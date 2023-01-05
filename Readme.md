@@ -20,10 +20,10 @@
 
 5. Members.db är dbfilen som lagrar data
 
-![image](/images/1.jpeg)
-![image](/images/add.jpeg)
-![image](/images/uppdate.jpeg)
-![image](/images/delete.jpeg)
-![image](/images/invald_input.jpeg)
-![image](/images/search_check.jpeg)
+![image](/images/1.jpeg)<br>
+![image](/images/add.jpeg)<br>
+![image](/images/uppdate.jpeg)<br>
+![image](/images/delete.jpeg)<br>
+![image](/images/invald_input.jpeg)<br>
+![image](/images/search_check.jpeg)<br>
 
