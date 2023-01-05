@@ -10,12 +10,9 @@ from  sqlalchemy import or_
 #use mysql
 # import pymysql
 # pymysql.install_as_MySQLdb()
+
 #use sqlite
 import sqlite3
-
-#configuration
-# config using mysql
-#configuration = 'mysql+mysqldb://root:Code2022@localhost:3306/test'
 
 # config using sqlite
 configuration = 'sqlite:///Members.db'
