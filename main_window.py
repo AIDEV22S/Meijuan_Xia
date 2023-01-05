@@ -8,11 +8,15 @@ import PySimpleGUI as sg
 from PySimpleGUI import Column,Frame,Button,Input,Table,Text
 
 import database_interface
+import os
+import create_databse
 
 sg.theme('LightBlue2')
 
 #sg.theme_button_color(('Black','#7186C7'))
 
+if not os.path.exists('Members.db'):
+    create_databse.CreatDb()
 
 initial_list =[]
 col11 = Column([[Frame('Search information',[[Text(),Column([[Text('Name or Medlemm Nummer',font='_15')],

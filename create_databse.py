@@ -15,6 +15,9 @@ from  sqlalchemy import or_
 import sqlite3
 
 # config using sqlite
+
+import sqlite3
+
 configuration = 'sqlite:///Members.db'
 engine = create_engine(configuration, echo = True)
 Base = declarative_base()
@@ -24,7 +27,7 @@ session = Session()
 # Create class which would map to database
 class Medlemmar(Base):
     __tablename__ = 'medlemmar'
-    __table_args__ ={'mysql_engine':'InnoDB'}
+    #__table_args__ ={'mysql_engine':'InnoDB'}
     MedlNr = Column(Integer,primary_key = True)
     Firstname = Column(String(20))
     Eftername = Column(String(20))
