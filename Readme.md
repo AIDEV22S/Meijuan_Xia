@@ -11,6 +11,8 @@
        - Members.db
 
 1. main_window.py visar main interface 
+![image](https://user-images.githubusercontent.com/114533842/210873268-1e9aaaed-d0d0-46f1-b8cd-787ba109dc2f.png)
+
 
 2. creat_dabase.py deklarerar mapping databasen, skapar Session och klass
 
